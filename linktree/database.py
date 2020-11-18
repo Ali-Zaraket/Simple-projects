@@ -54,3 +54,8 @@ class Database(object):
 
 	def close(self):   # CLOSING THE CONNECTION
 		self.connection.close()
+		
+if __name__ == '__main__':
+	create_table()
+
+
